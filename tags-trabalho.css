@@ -52,6 +52,18 @@ img {
     height: 300px;
     position: absolute;
     right: 510px;
+    animation:slide;
+    border-radius: 20px;
+    animation-duration:5s;
+    animation-fill-mode:forwards;
+}
+@keyframes slide{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
 }
 
 footer {
