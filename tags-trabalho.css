@@ -53,15 +53,17 @@ img {
     position: absolute;
     right: 510px;
     animation:slide;
-    border-radius: 20px;
+    /* border-radius: 20px; */
     animation-duration:5s;
     animation-fill-mode:forwards;
 }
 @keyframes slide{
     from{
         opacity: 0;
+        
     }
     to{
+        border-radius: 30px;
         opacity: 1;
     }
 }
