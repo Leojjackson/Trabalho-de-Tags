@@ -80,3 +80,16 @@ article {
     bottom: 110px;
     width: 800px;
 }
+p,h1,h2{
+    animation:slidee;
+    animation-duration:8s;
+    animation-fill-mode:forwards;
+}
+@keyframes slidee {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
