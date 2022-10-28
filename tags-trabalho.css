@@ -8,6 +8,10 @@ h2 {
     text-align: center;
     font: italic 24pt helvetica;
 }
+#txt{
+    width:400px;
+    margin:50px auto;
+}
 
 body {
     background-color: hsla(187, 91%, 54%, 0.247);
