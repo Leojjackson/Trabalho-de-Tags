@@ -15,6 +15,11 @@ h2 {
     width:400px;
     margin:50px auto;
 }
+figcaption{
+    position:absolute;
+    left: 40px;
+    top: 400px;
+}
 
 body {
     background-color: hsla(187, 91%, 54%, 0.247);
